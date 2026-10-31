@@ -1,0 +1,116 @@
+{
+  "label": "cloud-connection-check",
+  "base": "http://localhost:3001",
+  "started_at": "2026-10-31T07:14:26.939Z",
+  "screens": 2,
+  "questions_played": 4,
+  "game_minutes": 1.6,
+  "problems": [],
+  "totals": {
+    "calls": 148,
+    "server_errors_5xx": 0,
+    "network_failures": 0,
+    "answers_locked": 7,
+    "answers_stored": 7,
+    "duplicates_refused": 0,
+    "late_refused": 0
+  },
+  "realtime": {
+    "subscribed": 2,
+    "failed": 0,
+    "signals": 10,
+    "reconnects": 0
+  },
+  "question_reached_screen_ms": {
+    "p50": 241,
+    "p95": 2264,
+    "p99": 2264,
+    "max": 2264,
+    "via_signal": 5,
+    "via_backup": 3
+  },
+  "by_call": {
+    "join": {
+      "calls": 2,
+      "errors": 0,
+      "p50": 127,
+      "p95": 127,
+      "p99": 127,
+      "max": 127
+    },
+    "me": {
+      "calls": 2,
+      "errors": 0,
+      "p50": 70,
+      "p95": 70,
+      "p99": 70,
+      "max": 70
+    },
+    "time": {
+      "calls": 2,
+      "errors": 0,
+      "p50": 4,
+      "p95": 4,
+      "p99": 4,
+      "max": 4
+    },
+    "live": {
+      "calls": 58,
+      "errors": 0,
+      "p50": 56,
+      "p95": 175,
+      "p99": 320,
+      "max": 320
+    },
+    "admin_state": {
+      "calls": 42,
+      "errors": 0,
+      "p50": 180,
+      "p95": 549,
+      "p99": 865,
+      "max": 865
+    },
+    "results": {
+      "calls": 31,
+      "errors": 0,
+      "p50": 62,
+      "p95": 555,
+      "p99": 803,
+      "max": 803
+    },
+    "admin_start": {
+      "calls": 4,
+      "errors": 0,
+      "p50": 1135,
+      "p95": 3725,
+      "p99": 3725,
+      "max": 3725
+    },
+    "answer": {
+      "calls": 7,
+      "errors": 0,
+      "p50": 67,
+      "p95": 157,
+      "p99": 157,
+      "max": 157
+    }
+  },
+  "top_3": [
+    {
+      "teamId": "127c1ce5-4cb9-49d6-bdd6-c4c40737ad94",
+      "name": "Crew 2",
+      "points": 10,
+      "correct": 3,
+      "totalMs": 30997,
+      "rank": 1
+    },
+    {
+      "teamId": "f5124b53-8763-4fc0-9e1c-2c64507943b7",
+      "name": "Crew 1",
+      "points": 8,
+      "correct": 3,
+      "totalMs": 38638,
+      "rank": 2
+    }
+  ]
+}

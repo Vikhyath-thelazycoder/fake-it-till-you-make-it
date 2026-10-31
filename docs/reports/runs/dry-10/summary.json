@@ -1,0 +1,124 @@
+{
+  "label": "dry-10",
+  "base": "http://localhost:3000",
+  "started_at": "2026-10-31T06:39:16.253Z",
+  "screens": 10,
+  "questions_played": 4,
+  "game_minutes": 1.6,
+  "problems": [],
+  "totals": {
+    "calls": 463,
+    "server_errors_5xx": 0,
+    "network_failures": 0,
+    "answers_locked": 39,
+    "answers_stored": 39,
+    "duplicates_refused": 0,
+    "late_refused": 0
+  },
+  "realtime": {
+    "subscribed": 10,
+    "failed": 0,
+    "signals": 50,
+    "reconnects": 0
+  },
+  "question_reached_screen_ms": {
+    "p50": 22,
+    "p95": 32,
+    "p99": 33,
+    "max": 33,
+    "via_signal": 40,
+    "via_backup": 0
+  },
+  "by_call": {
+    "join": {
+      "calls": 10,
+      "errors": 0,
+      "p50": 15,
+      "p95": 18,
+      "p99": 18,
+      "max": 18
+    },
+    "me": {
+      "calls": 10,
+      "errors": 0,
+      "p50": 5,
+      "p95": 5,
+      "p99": 5,
+      "max": 5
+    },
+    "time": {
+      "calls": 10,
+      "errors": 0,
+      "p50": 1,
+      "p95": 2,
+      "p99": 2,
+      "max": 2
+    },
+    "live": {
+      "calls": 310,
+      "errors": 0,
+      "p50": 4,
+      "p95": 11,
+      "p99": 13,
+      "max": 38
+    },
+    "results": {
+      "calls": 32,
+      "errors": 0,
+      "p50": 9,
+      "p95": 10,
+      "p99": 10,
+      "max": 10
+    },
+    "admin_state": {
+      "calls": 48,
+      "errors": 0,
+      "p50": 16,
+      "p95": 18,
+      "p99": 19,
+      "max": 19
+    },
+    "admin_start": {
+      "calls": 4,
+      "errors": 0,
+      "p50": 25,
+      "p95": 27,
+      "p99": 27,
+      "max": 27
+    },
+    "answer": {
+      "calls": 39,
+      "errors": 0,
+      "p50": 11,
+      "p95": 14,
+      "p99": 15,
+      "max": 15
+    }
+  },
+  "top_3": [
+    {
+      "teamId": "52d15f85-5ff1-407d-9473-f775e1afca95",
+      "name": "Crew 5",
+      "points": 12,
+      "correct": 4,
+      "totalMs": 43616,
+      "rank": 1
+    },
+    {
+      "teamId": "41cd477c-0299-476e-b382-31cbfd2bc51d",
+      "name": "Crew 7",
+      "points": 9,
+      "correct": 3,
+      "totalMs": 32494,
+      "rank": 2
+    },
+    {
+      "teamId": "989879c3-b25b-4206-8aba-74b5de15e460",
+      "name": "Crew 1",
+      "points": 7,
+      "correct": 2,
+      "totalMs": 17807,
+      "rank": 3
+    }
+  ]
+}

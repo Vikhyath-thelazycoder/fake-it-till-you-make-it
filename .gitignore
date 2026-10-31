@@ -1,0 +1,10 @@
+node_modules
+.next
+.env*
+!.env.example
+*.tsbuildinfo
+next-env.d.ts
+supabase/.temp
+supabase/.branches
+docs/reports/runs/*/raw*
+.DS_Store
